@@ -1,0 +1,31 @@
+{
+    "name": "CO2-Ampel mit CCS811",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "SG33": "github:tonitaste/pxt-sg33#84c9877f5df5fe871b2f9e2647f9c75f9659950d",
+        "pxt-number-code-block": "github:tonitaste/pxt-number-code-block#v0.0.9",
+        "pxt-oled-ssd1306": "github:mkleinsb/pxt-oled-ssd1306#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.33",
+        "tag": "v3.0.33",
+        "commits": "https://github.com/microsoft/pxt-calliope/commits/3742cc45f2721da346c8f20d3634ddd20487fcf9",
+        "target": "6.0.27",
+        "pxt": "6.0.23",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
